@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-symbol-dark.png';
-import './Header.css'
+import './Header.css';
+import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
     return (
@@ -17,10 +19,23 @@ const Header = () => {
                 <li><a className="text-xl text-white font-bold" href="">Contact</a></li>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a  href="" className="btn">Get started</a>
+            <div className="md:navbar-end">
+                <ul className='text-2xl text-gray-400 mt-5 flex gap-16 justify-end'>
+                        <li className='hover:text-white hover:-translate-y-1'>
+                            <BsFacebook></BsFacebook>
+                        </li>
+                        <li className='hover:text-white hover:-translate-y-1'>
+                            <FaLinkedinIn></FaLinkedinIn>
+                        </li>
+                        <li className='hover:text-white hover:-translate-y-1'>
+                            <BsTwitter></BsTwitter>
+                        </li>
+                        <li className='hover:text-white hover:-translate-y-1'>
+                            <BsInstagram></BsInstagram>
+                        </li>
+                </ul>
             </div>
-            <div className="navbar-end">
+            <div className="navbar-end md:hidden block">
                 <div className="dropdown">
                 <label tabindex="0" className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
