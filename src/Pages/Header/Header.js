@@ -1,18 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/logo-symbol-dark.png'
+import Logo from '../../images/logo-symbol-dark.png';
+import './Header.css'
 
 const Header = () => {
     return (
         <div className="navbar bg-black px-24">
             <div className="navbar-start hidden lg:flex">
-                <Link className="text-xl text-white font-bold" to="/home"><img src={Logo} alt="" /></Link>
+                <Link className="text-xl text-white font-bold" to="/home"><img className="logo" src={Logo} alt="" /></Link>
                 <ul className="menu menu-horizontal p-0 ml-8">
-                <li><a className="text-xl text-white font-bold" href="">Home</a></li>
-                <li><a className="text-xl text-white font-bold" href="">Item 3</a></li>
+                <li><Link className="text-xl text-white font-bold" to="/home">Home</Link></li>
+                <li><a className="text-xl text-white font-bold" href="">About</a></li>
+                <li><a className="text-xl text-white font-bold" href="">Service</a></li>
+                <li><a className="text-xl text-white font-bold" href="">Portfolio</a></li>
+                <li><a className="text-xl text-white font-bold" href="">Blog</a></li>
+                <li><a className="text-xl text-white font-bold" href="">Contact</a></li>
                 </ul>
             </div>
-            <div className="navbar-center">
+            <div className="navbar-end">
                 <a  href="" className="btn">Get started</a>
             </div>
             <div className="navbar-end">
