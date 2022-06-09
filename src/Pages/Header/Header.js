@@ -13,7 +13,7 @@ const Header = () => {
                 <ul className="menu menu-horizontal p-0 ml-8">
                 <li><Link className="text-xl text-white font-bold" to="/home">Home</Link></li>
                 <li><a className="text-xl text-white font-bold" href="#about">About</a></li>
-                <li><a className="text-xl text-white font-bold" href="">Service</a></li>
+                <li><a className="text-xl text-white font-bold" href="#service">Service</a></li>
                 <li><a className="text-xl text-white font-bold" href="">Portfolio</a></li>
                 <li><a className="text-xl text-white font-bold" href="">Blog</a></li>
                 <li><a className="text-xl text-white font-bold" href="">Contact</a></li>

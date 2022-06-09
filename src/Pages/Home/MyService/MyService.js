@@ -6,7 +6,7 @@ import './MyService.css';
 
 const MyService = () => {
     return (
-        <div className="bg-black p-20">
+        <div id='service' className="bg-black p-20">
             <h1 className="text-5xl text-white font-bold text-center">My Supper Service</h1>
             <p class="py-6 text-gray-400 text-lg text-center">
                 All kinds of web service in here that's you need. So, why are you late....
@@ -18,7 +18,7 @@ const MyService = () => {
                         <h2 class="card-title text-2xl text-white fond-bold">Web Design</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">Read Details</button>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const MyService = () => {
                         <h2 class="card-title text-2xl text-white fond-bold">Create Dynamic Web Application</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">Read Details</button>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const MyService = () => {
                         <h2 class="card-title text-2xl text-white fond-bold">Web Development</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">Read Details</button>
                         </div>
                     </div>
                 </div>
