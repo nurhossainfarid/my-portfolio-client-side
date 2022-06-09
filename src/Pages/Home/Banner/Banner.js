@@ -4,7 +4,7 @@ import MyPic from '../../../images/mypic.png'
 const Banner = () => {
     return (
         <div className="bg-black">
-            <div className="hero min-h-screen bg-black">
+            <div className="hero bg-black">
                 <div className="hero-content flex-col lg:flex-row-reverse p-0 gap-5 h-full">
                     <img src={MyPic} className="max-w-sm rounded-lg shadow-2xl" />
                     <div>

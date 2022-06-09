@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-symbol-dark.png';
 import './Header.css';
-import { BsFacebook, BsYoutube, BsTwitter, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
