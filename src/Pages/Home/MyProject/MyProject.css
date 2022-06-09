@@ -1,0 +1,17 @@
+.project-img {
+    position: relative;
+}
+
+.project-img:hover .hover-div {
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+};
+
+img{
+    height: 300px;
+}

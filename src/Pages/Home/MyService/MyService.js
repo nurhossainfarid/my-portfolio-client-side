@@ -15,7 +15,7 @@ const MyService = () => {
                 <div style={{ backgroundColor: '#191919' }} class="card shadow-xl hover:bg-gradient-to-r from-primary to-pink-600 hover:hover:-translate-y-5 ease-in-out">
                     <figure><img className='p-3 service-img' src={WebDesignPic} alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title text-2xl text-white fond-bold">Web Design</h2>
+                        <h2 class="card-title text-2xl text-white fond-bold">Web Designer</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
                         <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">Read Details</button>
