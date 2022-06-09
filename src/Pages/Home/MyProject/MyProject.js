@@ -20,7 +20,7 @@ const MyProject = () => {
                         <div className="absolute top-1/2 left-1/4 grid grid-cols-1 gap-5 caption-text">
                             <h1 className="text-5xl text-white ">.carBro</h1>
                             <p className="text-xl text-white">This is the Car parts <br /> Manufacture websites.</p>
-                            <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">View Details</button>
+                            <button className="btn w-3/4 bg-primary hover:bg-white text-md text-white hover:scale-110 hover:text-primary border-none">View Details</button>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const MyProject = () => {
                             <h1 className="text-3xl text-white">Laptopo House <br /> Center</h1>
                             <p className="text-lg text-white">This is the laptop <br /> warehouse/inventory <br />
                             management websites.</p>
-                            <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">View Details</button>
+                            <button className="btn w-3/4 bg-primary hover:bg-white text-md text-white hover:scale-110 hover:text-primary border-none">View Details</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const MyProject = () => {
                         <div className="absolute top-1/2 left-1/4 grid grid-cols-1 gap-5 caption-text">
                             <h1 className="text-4xl text-white ">Doctor Portal</h1>
                             <p className="text-xl text-white font-bold">This is the Doctor <br /> services website</p>
-                            <button className="btn bg-primary hover:bg-white text-lg text-white hover:scale-110 hover:text-primary border-none">View Details</button>
+                            <button className="btn w-3/4 bg-primary hover:bg-white text-md text-white hover:scale-110 hover:text-primary border-none">View Details</button>
                         </div>
                     </div>
                 </div>
