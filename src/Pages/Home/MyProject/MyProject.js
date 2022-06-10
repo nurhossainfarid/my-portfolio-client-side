@@ -31,7 +31,7 @@ const MyProject = () => {
                         </div>
                         <div className="absolute top-1/4 md:top-1/3 left-1/4 grid grid-cols-1 gap-5 caption-text">
                             <h1 className="text-3xl text-white">Laptopo House <br /> Center</h1>
-                            <p className="text-lg text-white">This is the laptop <br /> warehouse/inventory <br />
+                            <p className="text-md md:text-lg text-white">This is the laptop <br /> warehouse/inventory <br />
                             management websites.</p>
                             <button className="btn w-3/4 bg-primary hover:bg-white text-md text-white hover:scale-110 hover:text-primary border-none">View Details</button>
                         </div>
@@ -43,8 +43,8 @@ const MyProject = () => {
                         <div className="hover-div bg-primary">
                         </div>
                         <div className="absolute top-1/2 left-1/4 grid grid-cols-1 gap-5 caption-text">
-                            <h1 className="text-4xl text-white ">Doctor Portal</h1>
-                            <p className="text-xl text-white font-bold">This is the Doctor <br /> services website</p>
+                            <h1 className="text-3xl md:text-4xl text-white ">Doctor Portal</h1>
+                            <p className="text-md md:text-xl text-white font-bold">This is the Doctor <br /> services website</p>
                             <button className="btn w-3/4 bg-primary hover:bg-white text-md text-white hover:scale-110 hover:text-primary border-none">View Details</button>
                         </div>
                     </div>
