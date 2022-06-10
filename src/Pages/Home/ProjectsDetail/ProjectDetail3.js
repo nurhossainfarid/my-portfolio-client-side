@@ -9,7 +9,7 @@ const ProjectDetail3 = () => {
                     <img src={ProjectPic3} alt="" />
                 </figure>
                 <div class="card-body mx-5 mt-5">
-                    <h2 class="card-title text-3xl">Project Name : <span className='text-primary text-4xl font-bold'>.carBro</span></h2>
+                    <h2 class="card-title text-3xl">Project Name : <span className='text-primary text-4xl font-bold'>Doctor Portal</span></h2>
                     <h2 className="text-2xl font-semibold">Project Review : </h2>
                     <ul className='list-disc ml-10 text-xl'>
                         <li>This is the Car Parts Manufacturer website.</li>
@@ -18,13 +18,13 @@ const ProjectDetail3 = () => {
                     </ul>
                     <div class="card-actions justify-start mt-5 gap-5">
                     <div class="badge badge-outline text-primary badge-lg hover:scale-110 hover:bg-primary hover:text-white">
-                        <a  target="_blank" href="https://car-bro-4747.firebaseapp.com/">Live Demo</a>        
+                        <a  target="_blank" href="https://doctor-portal-91e25.web.app/">Live Demo</a>        
                     </div>
                     <div class="badge badge-outline text-secondary badge-lg hover:scale-110 hover:bg-secondary hover:text-white">
-                        <a  target="_blank" href="https://github.com/nurhossainfarid/-manufacturer-website-client-side">Client Side Code</a>        
+                        <a  target="_blank" href="https://github.com/nurhossainfarid/doctor-protal-client">Client Side Code</a>        
                     </div>
                     <div class="badge badge-outline text-accent badge-lg hover:scale-110 hover:bg-accent hover:text-white">
-                        <a  target="_blank" href="https://github.com/nurhossainfarid/manufacturer-website-server-side">Server Side Code</a>        
+                        <a  target="_blank" href="https://github.com/nurhossainfarid/doctor-portal-server">Server Side Code</a>        
                     </div>
                     </div>
                 </div>

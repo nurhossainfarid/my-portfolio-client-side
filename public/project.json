@@ -12,9 +12,9 @@
     },
     {
         "_id": "",
-        "liveLink": "https://car-bro-4747.firebaseapp.com/",
-        "clientSideLink": "https://github.com/nurhossainfarid/-manufacturer-website-client-side",
-        "serverSideLink": "https://github.com/nurhossainfarid/manufacturer-website-server-side",
+        "liveLink": "https://warehouse-management-e8596.firebaseapp.com/",
+        "clientSideLink": "https://github.com/nurhossainfarid/warehouse-management-client-side",
+        "serverSideLink": "https://github.com/nurhossainfarid/warehouse-management-server-side",
         "projectReview": {
             "1": "This is the laptop warehouse/inventory management websites.",
             "2": "On the Home page, header, slider, Our Products, Our Facilities, Testimonial, and footer section.",
@@ -23,7 +23,7 @@
     },
     {
         "_id": "3",
-        "liveLink": "https://car-bro-4747.firebaseapp.com/",
+        "liveLink": "https://doctor-portal-91e25.web.app/",
         "clientSideLink": "https://github.com/nurhossainfarid/-manufacturer-website-client-side",
         "serverSideLink": "https://github.com/nurhossainfarid/manufacturer-website-server-side",
         "projectReview": {
