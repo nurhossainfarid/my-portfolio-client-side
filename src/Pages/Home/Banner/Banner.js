@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="bg-black pb-10">
             <div className="hero bg-black ">
                 <div className="hero-content flex-col px-10 lg:flex-row-reverse p-0 gap-5 h-full">
-                    <img src={MyPic} className="w-full rounded-lg shadow-2xl" />
+                    <img src={MyPic} className="rounded-bl-full shadow-2xl border-b-4 border-primary" />
                     <div className="text-center md:text-start">
                     <h1 className="text-lg md:text-xl text-gray-400 uppercase">Welcome to my world</h1>
                     <h1 className="text-3xl md:text-5xl font-bold text-white mt-1 md:mt-2">Hi, I'm Nur Hossain Farid</h1>
