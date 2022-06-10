@@ -5,7 +5,6 @@ import Home from './Pages/Home/Home';
 import ProjectDetail1 from './Pages/Home/ProjectsDetail/ProjectDetail1';
 import ProjectDetail2 from './Pages/Home/ProjectsDetail/ProjectDetail2';
 import ProjectDetail3 from './Pages/Home/ProjectsDetail/ProjectDetail3';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
