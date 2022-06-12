@@ -32,7 +32,7 @@ const Header = () => {
                     <li><a className="text-xl text-white font-bold" href="#about">About</a></li>
                     <li><a className="text-xl text-white font-bold" href="#service">Service</a></li>
                     <li><a className="text-xl text-white font-bold" href="#project">Portfolio</a></li>
-                    <li><a className="text-xl text-white font-bold" href="">Blog</a></li>
+                    <li><a className="text-xl text-white font-bold" href="#blogs">Blog</a></li>
                     <li><a className="text-xl text-white font-bold" href="">Team</a></li>
                     <li><a className="text-xl text-white font-bold" href="#contact">Contact</a></li>
                     </ul>
