@@ -1,5 +1,5 @@
 import React from 'react';
-import mypic2 from '../../../images/mypic2.jpeg';
+import mypic4 from '../../../images/mypic4.jpeg';
 import './About.css'
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
             <div class="hero " style={{backgroundColor:'#191919'}}>
                 <div class="hero-content flex-col lg:flex-row gap-10 py-10 md:py-20">
                     <div className='w-3/4 md:w-2/6'>
-                    <img className='w-full about-img' src={mypic2} />
+                    <img className='w-full about-img' src={mypic4} />
                     </div>
                     <div className='w-3/4'>
                     <h1 class="text-3xl md:text-5xl font-bold text-white">About Me</h1>
