@@ -4,14 +4,14 @@ import ProjectPic2 from '../../../images/secondProjectDemo.png';
 const ProjectDetail2 = () => {
     return (
         <div className="pt-5" style={{backgroundColor:'#191919'}}>
-            <div class="card card-compact w-2/3 mx-auto bg-base-100 shadow-xl mt-10 pb-10">
+            <div class="card card-compact w-5/6 md:w-2/3 mx-auto bg-base-100 shadow-xl mt-10 pb-10">
                 <figure className="p-3">
                     <img src={ProjectPic2} alt="" />
                 </figure>
                 <div class="card-body mx-5 mt-5">
-                    <h2 class="card-title text-3xl">Project Name : <span className='text-primary text-4xl font-bold'>Laptopo House Center</span></h2>
-                    <h2 className="text-2xl font-semibold">Project Review : </h2>
-                    <ul className='list-disc ml-10 text-xl'>
+                    <h2 class="card-title text-xl md:text-3xl">Project Name : <span className='text-primary md:text-4xl text-2xl font-bold'>Laptopo House Center</span></h2>
+                    <h2 className="text-md md:text-2xl font-semibold">Project Review : </h2>
+                    <ul className='list-disc ml-10 text-sm md:text-xl'>
                         <li>This is the laptop warehouse/inventory management websites.</li>
                         <li>On the Home page, header, slider, Our Products, Our Facilities, Testimonial, and footer section.</li>
                         <li>If you are registered person, you can use more features. In the Login page you want to be created a new account and you have an account then you login.</li>
