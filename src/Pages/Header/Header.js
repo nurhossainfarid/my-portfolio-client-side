@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-symbol-dark.png';
 import './Header.css';
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
@@ -54,9 +54,11 @@ const Header = () => {
                                     <BsTwitter></BsTwitter>
                                 </a>
                             </li>
-                            <li className='hover:text-white hover:-translate-y-1'>
-                                <BsInstagram></BsInstagram>
-                            </li>
+                        <li className='hover:text-white hover:-translate-y-1'>
+                            <a target="_blank" href='https://github.com/nurhossainfarid'>
+                                <BsGithub></BsGithub>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
