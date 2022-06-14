@@ -7,8 +7,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Header = () => {
     return (
-        <div className="relative">
-            <div className="navbar bg-black md:px-24 top-0 left-0 sticky">
+        <div className="relative z-10">
+            <div className="navbar bg-black md:px-24">
                 <div className="navbar-start md:hidden block w-1/3 mt-5 ">
                     <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">

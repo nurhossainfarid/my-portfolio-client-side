@@ -6,7 +6,7 @@ import './MyService.css';
 
 const MyService = () => {
     return (
-        <div id='service' className="bg-black p-10 md:p-20">
+        <div id='service' className="bg-black p-10 md:p-20 relative">
             <h1 className="text-4xl md:text-5xl text-white font-bold text-center">My Supper Service</h1>
             <p class="py-6 text-gray-400 text-md md:text-lg text-center">
                 All kinds of web service in here that's you need. So, why are you late....

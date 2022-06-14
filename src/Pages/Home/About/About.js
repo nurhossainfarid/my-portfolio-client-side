@@ -4,7 +4,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div id="about">
+        <div id="about" className="relative">
             <div class="hero " style={{backgroundColor:'#191919'}}>
                 <div class="hero-content flex-col lg:flex-row gap-10 py-10 md:py-20">
                     <div className='w-3/4 md:w-2/6'>

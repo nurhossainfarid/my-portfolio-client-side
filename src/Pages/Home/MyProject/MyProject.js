@@ -7,7 +7,7 @@ import './MyProject.css';
 
 const MyProject = () => {
     return (
-        <div id='project' className="p-10 md:p-20" style={{backgroundColor:'#191919'}}>
+        <div id='project' className="p-10 md:p-20 relative" style={{backgroundColor:'#191919'}}>
             <h1 className="text-4xl md:text-5xl text-white font-bold text-center">My Latest Project</h1>
             <p class="py-6 text-gray-400 text-md md:text-lg text-center">
                 All kinds of web service in here that's you need. So, why are you late....

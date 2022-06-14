@@ -12,7 +12,7 @@ const ContactMe = () => {
     }).catch(err => {console.log(err);})
   }
   return (
-    <div className="" id="contact">
+    <div className="relative" id="contact">
         <div class="p-10 md:p-28 bg-black">
           <div class="flex md:flex-row flex-col gap-16">
             <img src="https://img.freepik.com/free-photo/business-partners-closing-deal_74855-2608.jpg?size=626&ext=jpg&uid=R62982774&ga=GA1.2.1043722416.1642986635" class="w-full md:w-1/2 rounded-lg shadow-2xl order-1 md:order-2" />
