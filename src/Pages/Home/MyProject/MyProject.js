@@ -13,8 +13,9 @@ const MyProject = () => {
                 All kinds of web service in here that's you need. So, why are you late....
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
-                <div>
-                    <div className="project-img relative hover:scale-110">
+                <div data-aos="fade-up"
+     data-aos-duration="2000">
+                    <div className="project-img relative hover:scale-110" >
                         <img className='img' src={Project01} alt="" />
                         <div className="hover-div bg-primary">
                         </div>
@@ -25,7 +26,9 @@ const MyProject = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                     <div className="project-img relative hover:scale-110 h-full">
                         <img className="md:h-full img" src={Project02} alt="" />
                         <div className="hover-div bg-primary">
@@ -38,7 +41,8 @@ const MyProject = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up"
+     data-aos-duration="2000">
                     <div className="project-img relative hover:scale-110 h-full">
                         <img className="md:h-full img" src={Project03} alt="" />
                         <div className="hover-div bg-primary">

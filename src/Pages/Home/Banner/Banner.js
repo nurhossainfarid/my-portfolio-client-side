@@ -128,8 +128,11 @@ const Banner = () => {
         />
         <div className="hero ">
                 <div className="hero-content flex-col px-10 lg:flex-row-reverse p-0 gap-5 h-full">
-                    <img src={MyPic} className="rounded-bl-full shadow-2xl border-b-4 border-primary" />
-                    <div className="text-center md:text-left md:text-start">
+                    <img src={MyPic} className="rounded-bl-full shadow-2xl border-b-4 border-primary" data-aos="zoom-in-down"
+                    data-aos-duration="2500" />
+                    <div className="text-center md:text-left md:text-start" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1500">
                     <h1 className="text-lg md:text-xl text-gray-400 uppercase">Welcome to my world</h1>
                     <h1 className="text-3xl md:text-5xl font-bold text-white mt-1 md:mt-2">Hi, I'm Nur Hossain Farid</h1>
                     <h1 className="text-3xl md:text-5xl font-bold text-primary mt-2 md:mt-5 animation" data-text="MernStackDeveloPer...">MernStackDeveloPer...</h1>

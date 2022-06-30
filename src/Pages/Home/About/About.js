@@ -7,10 +7,10 @@ const About = () => {
         <div id="about" className="relative">
             <div class="hero " style={{backgroundColor:'#191919'}}>
                 <div class="hero-content flex-col lg:flex-row gap-10 py-10 md:py-20">
-                    <div className='w-3/4 md:w-2/6'>
-                    <img className='w-full about-img' src={mypic4} />
+                    <div className='w-3/4 md:w-2/6' data-aos="fade-up-left" data-aos-duration="1500">
+                    <img className='w-full about-img' src={mypic4}  />
                     </div>
-                    <div className='w-3/4'>
+                    <div className='w-3/4' data-aos="fade-up-right" data-aos-duration="1000">
                     <h1 class="text-3xl md:text-5xl font-bold text-white">About Me</h1>
                     <p class="py-6 text-gray-400 text-md md:text-lg">Hi, I'm Nur Hossain Farid a Junior MERN
                         STACK Developer. I am providing any kind of Web

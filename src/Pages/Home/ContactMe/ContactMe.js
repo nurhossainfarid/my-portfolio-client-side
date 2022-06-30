@@ -15,8 +15,8 @@ const ContactMe = () => {
     <div className="relative" id="contact">
         <div class="p-10 md:p-28 bg-black">
           <div class="flex md:flex-row flex-col gap-16">
-            <img src="https://img.freepik.com/free-photo/business-partners-closing-deal_74855-2608.jpg?size=626&ext=jpg&uid=R62982774&ga=GA1.2.1043722416.1642986635" class="w-full md:w-1/2 rounded-lg shadow-2xl order-1 md:order-2" />
-          <div class="w-full md:w-1/2">
+            <img src="https://img.freepik.com/free-photo/business-partners-closing-deal_74855-2608.jpg?size=626&ext=jpg&uid=R62982774&ga=GA1.2.1043722416.1642986635" class="w-full md:w-1/2 rounded-lg shadow-2xl order-1 md:order-2" data-aos="zoom-in-right"/>
+          <div class="w-full md:w-1/2" data-aos="zoom-in-left">
             <h1 className="text-4xl md:text-5xl font-bold text-white">Hire Me!</h1>
             <p className="text-lg text-gray-400 py-3">I am available for freelance work. Connect with me via phone: 01923 088574 or email: admin@example.com</p>
             <form action="" onSubmit={sendEmail}>
