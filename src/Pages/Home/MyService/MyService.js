@@ -15,7 +15,7 @@ const MyService = () => {
             </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-5">
-                <div style={{ backgroundColor: '#191919' }} class="card shadow-xl hover:bg-gradient-to-r from-primary to-pink-600 hover:hover:-translate-y-5 ease-in-out" data-aos="flip-left" data-aos-duration="1500">
+                <div style={{ backgroundColor: '#191919' }} class="card shadow-xl hover:bg-gradient-to-r from-primary to-pink-600 hover:hover:-translate-y-5 ease-in-out duration-700"  data-aos="flip-left" data-aos-duration="1500">
                     <figure><img className='p-3 service-img' src={WebDesignPic} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title text-3xl md:text-4xl text-white fond-bold">Web Design</h2>
