@@ -6,6 +6,7 @@ import ProjectDetail1 from './Pages/Home/ProjectsDetail/ProjectDetail1';
 import ProjectDetail2 from './Pages/Home/ProjectsDetail/ProjectDetail2';
 import ProjectDetail3 from './Pages/Home/ProjectsDetail/ProjectDetail3';
 import Blogs from './Pages/Home/Blogs/Blogs';
+import Footer from './Pages/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/project3" element={<ProjectDetail3></ProjectDetail3>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
