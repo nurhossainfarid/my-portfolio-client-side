@@ -10,9 +10,7 @@ const MyService = () => {
             <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom">
             <h1 className="text-4xl md:text-5xl text-white font-bold text-center">My Supper Service</h1>
-            <p class="py-6 text-gray-400 text-md md:text-lg text-center">
-                All kinds of web service in here that's you need. So, why are you late....
-            </p>
+            <p className="text-xl text-white text-center font-bold py-4">--- <span className="text-primary font-semibold">What i Provide</span> ---</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pt-5">
                 <div style={{ backgroundColor: '#191919', }} class="card shadow-xl hover:bg-gradient-to-r from-primary to-pink-600 hover:-translate-y-5"  data-aos="flip-left" data-aos-duration="1500">

@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
 .logo {
     max-width: none;
+}
+
+.gradient-text{
+    background-image:linear-gradient(70deg, red, rgb(255, 157, 0), red);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Splash', cursive;
 }

@@ -5,6 +5,7 @@ import './Header.css';
 import { BsFacebook, BsTwitter, BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 const Header = () => {
     return (
         <div className="relative z-10">
@@ -18,7 +19,9 @@ const Header = () => {
                         <li><Link className="text-xl text-white font-bold" to="/home">Home</Link></li>
                         <li><a className="text-xl text-white font-bold" href="#about">About</a></li>
                         <li><a className="text-xl text-white font-bold" href="#service">Service</a></li>
-                        <li><a className="text-xl text-white font-bold" href="#project">Portfolio</a></li>
+                        <li><a className="text-xl text-white font-bold" href="#project">Projects</a></li>
+                        <li><a className="text-xl text-white font-bold" href="#skills">Skills</a></li>
+                            
                         <li><a className="text-xl text-white font-bold"><Link to="/blogs">Blogs</Link></a></li>
                         <li><a className="text-xl text-white font-bold" href="">My Team</a></li>
                         <li><a className="text-xl text-white font-bold" href="#contact">Contact</a></li>
@@ -26,12 +29,13 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="lg:navbar-start hidden lg:flex">
-                    <Link className="text-xl text-white font-bold" to="/home"><img className="logo" src={Logo} alt="" /></Link>
+                    <Link className="text-xl text-white font-bold" to="/home"><h1 className="font-bold text-3xl gradient-text rounded p-2">NHF</h1></Link>
                     <ul className="menu menu-horizontal p-0 ml-8">
                     <li><Link className="text-xl text-white font-bold" to="/home">Home</Link></li>
                     <li><a className="text-xl text-white font-bold" href="#about">About</a></li>
                     <li><a className="text-xl text-white font-bold" href="#service">Service</a></li>
-                    <li><a className="text-xl text-white font-bold" href="#project">Portfolio</a></li>
+                    <li><a className="text-xl text-white font-bold" href="#project">Projects</a></li>
+                    <li><a className="text-xl text-white font-bold" href="#skills">Skills</a></li>
                     <li><a className="text-xl text-white font-bold"><Link to="/blogs">Blogs</Link></a></li>
                     <li><a className="text-xl text-white font-bold" href="">Team</a></li>
                     <li><a className="text-xl text-white font-bold" href="#contact">Contact</a></li>

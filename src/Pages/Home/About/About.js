@@ -12,7 +12,8 @@ const About = () => {
                     </div>
                     <div className='w-3/4' data-aos="fade-up-right" data-aos-duration="1000">
                     <h1 class="text-3xl md:text-5xl font-bold text-white">About Me</h1>
-                    <p class="py-6 text-gray-400 text-md md:text-lg">Hi, I'm Nur Hossain Farid a Junior MERN
+                    <p className="text-xl text-white font-bold py-4">--- <span className="text-primary font-semibold">Who i Am</span> ---</p>
+                    <p class="py-4 text-gray-400 text-md md:text-lg">Hi, I'm Nur Hossain Farid a Junior MERN
                         STACK Developer. I am providing any kind of Web
                         solution you need. My first goal is to achieve client
                         satisfaction. I make a Dynamic website with

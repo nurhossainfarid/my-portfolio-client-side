@@ -7,11 +7,9 @@ import './MyProject.css';
 
 const MyProject = () => {
     return (
-        <div id='project' className="p-10 md:p-20 relative" style={{backgroundColor:'#191919'}}>
+        <div id='project' className="p-10 md:p-20 relative bg-secondary">
             <h1 className="text-4xl md:text-5xl text-white font-bold text-center">My Latest Project</h1>
-            <p class="py-6 text-gray-400 text-md md:text-lg text-center">
-                All kinds of web service in here that's you need. So, why are you late....
-            </p>
+            <p className="text-xl text-white text-center font-bold py-4">--- <span className="text-primary font-semibold">What i Provide</span> ---</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
                 <div data-aos="fade-up"
      data-aos-duration="2000">
